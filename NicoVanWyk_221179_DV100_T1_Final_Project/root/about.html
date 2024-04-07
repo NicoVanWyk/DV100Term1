@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Data -->
+    <meta author: Nico van Wyk>
+    <meta studentnumber: 221179>
+    <meta subject: DV100>
+    <meta lecturer: Tsungai Katsuro>
+    <meta class: 1>
+
+    <!-- **Added in project revival -->
+    <meta This page is the home page, and contains featured artists, recent releases and popular releases sections>
+    <meta name="Description"
+        content="Stream is the best place to stream all of your favorite songs and albums. Stream music at an affordable price.">
+    <meta name="keywords"
+        content="Songs, Music, Playlists, Stream, Pop, Rock, Albums, Grammy, Stream Music, Stream Albums, popular music, popular songs, recent albums, recent songs">
+
+    <!-- Title -->
+    <title>Final Assignment - Nico van Wyk - Year 1 Term 1</title>
+
+    <!-- css links -->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- jQuery Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- javaScript Link -->
+    <script src="../js/index.js"></script>
+
+    <!-- font links -->
+    <!-- **Added online links instead of local links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light w-100 navbar_bg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" style="margin-right: 50px;">
+                <div class="nav_image"></div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link poppins font_18 active" href="index.html#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link poppins font_18" aria-current="page" href="index.html#recent_releases">Recent
+                            Releases</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link poppins font_18" href="index.html#popular_albums">Popular Albums</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link poppins font_18 active" aria-current="page" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link poppins font_18 active" href="playlist.html">My Playlist</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex ms-auto" style="margin-right: 5%;">
+                    <input class="form-control me-2 nav_search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="nav_btn" type="submit"><img src="../assets/icons/other/search_icon.svg"></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- script that allows the navbar toggle to access the dropdown menu -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- About Us and Contact Form -->
+    <div class="container" id="about_div">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2 class="lora font_24">This Is Us</h2>
+                <h1 class="poppins font_48" style="margin-bottom: 20px;">Stream</h1>
+                <p class="lora font_18">The only home for pop music you would ever need, Stream proposes a new type of
+                    streaming website that carefully curates every song and album it hosts to give personalized, and
+                    fitting, songs to each user. Stream is available around the world, for any and every country.</p>
+
+                <br>
+
+                <ul>
+                    <li><img src="../assets/icons/contact/email_icon.svg" alt=""></li>
+                    <li class="info_tab_text lora font_18">info@stream.co</li>
+
+                    <li><img src="../assets/icons/contact/phone_icon.svg" alt=""></li>
+                    <li class="info_tab_text lora font_18">+27 12 345 6789</li>
+                </ul>
+
+                <div id="embedded_map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d229627.41939093283!2d27.95729129701553!3d-25.93757474084365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e956608911ce097%3A0x519896b4b6eda40a!2sOpen%20Window!5e0!3m2!1sen!2sza!4v1648744826139!5m2!1sen!2sza"
+                        width="580" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <form class="contact_form">
+
+                    <h3 class="font_24">GET IN TOUCH</h3>
+
+                    <input class="poppins font_18 inpContact" type="text" id="name" name="name" placeholder="Your Name">
+
+                    <input class="poppins font_18 inpContact" type="text" id="email" name="email" placeholder="Your Email">
+
+                    <select class="poppins font_18 otherContact" name="subject" id="subject">
+                        <option value="" disabled selected>Choose A Subject</option>
+                        <option>Customer Service</option>
+                        <option>Account Information</option>
+                        <option>Subscriptions</option>
+                    </select>
+
+                    <textarea class="poppins font_18 inpContact" name="message" id="message" cols="30"
+                        rows="15" placeholder="Your Message Here"></textarea>
+
+                    <input class="poppins font_18 otherContact" type="submit" id="play" value="Play">
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p class="poppins font_18 left">Stream Ⓒ 2021</p>
+
+        <ul class="right">
+            <li><img class="images_margin" src="../assets/icons/social/youtube_icon.svg" alt=""></li>
+            <li><img class="images_margin" src="../assets/icons/social/facebook_icon.svg" alt=""></li>
+            <li><img class="images_margin" src="../assets/icons/social/twitter_icon.svg" alt=""></li>
+            <li><img class="images_margin" src="../assets/icons/social/instagram_icon.svg" alt=""></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>

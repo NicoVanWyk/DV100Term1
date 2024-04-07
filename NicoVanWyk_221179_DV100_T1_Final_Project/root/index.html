@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Meta Data -->
+    <meta author: Nico van Wyk>
+    <meta studentnumber: 221179>
+    <meta subject: DV100>
+    <meta lecturer: Tsungai Katsuro>
+    <meta class: 1>
+
+    <!-- **Added in project revival -->
+    <meta This page is the home page, and contains featured artists, recent releases and popular releases sections>
+    <meta name="Description"
+        content="Stream is the best place to stream all of your favorite songs and albums. Stream music at an affordable price.">
+    <meta name="keywords"
+        content="Songs, Music, Playlists, Stream, Pop, Rock, Albums, Grammy, Stream Music, Stream Albums, popular music, popular songs, recent albums, recent songs">
+
+    <!-- Title -->
+    <title>Final Assignment - Nico van Wyk - Year 1 Term 1</title>
+
+    <!-- css links -->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- jQuery Link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- javaScript Link -->
+    <script src="../js/index.js"></script>
+
+    <!-- font links -->
+    <!-- **Added online links instead of local links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light w-100 navbar_bg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html" style="margin-right: 50px;">
+                <div class="nav_image"></div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link poppins font_18 active" href="index.html#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link poppins font_18" aria-current="page"
+                            href="index.html#recent_releases">Recent Releases</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link poppins font_18" href="index.html#popular_albums">Popular Albums</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link poppins font_18 active" aria-current="page"
+                            href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link poppins font_18 active" href="playlist.html">My Playlist</a>
+                    </li>
+                </ul>
+
+                <form class="d-flex ms-auto" style="margin-right: 5%;">
+                    <input class="form-control me-2 nav_search" type="search" placeholder="Search" aria-label="Search">
+                    <button class="nav_btn" type="submit"><img src="../assets/icons/other/search_icon.svg"></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- script that allows the navbar toggle to access the dropdown menu -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- Artist Header -->
+    <div class="header" id="header">
+
+        <!-- Artist Info -->
+        <div class="card card_css_artist">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 lora font_36">Jon Bellion</h6>
+                <h5 class="card-title poppins font_72">The Human Condition</h5>
+
+                <button class="font_24 poppins btnHeader btnHeaderBlack">Play</button>
+                <button class="font_24 poppins btnHeader btnHeaderWhite">Shuffle</button>
+                <button class="btnHeaderLike">
+                    <div class="imgHeaderLike"></div>
+                </button>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Featured Artist -->
+    <div class="featured_artist">
+        <!-- Featured Video -->
+        <iframe class="left iframe_featured" width="560" height="315"
+            src="https://www.youtube.com/embed/etIXDCSB_VU?si=4GSEdG2HsWhOOvF4" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!-- Featured Artist Info -->
+        <div class="card card_css_featured_artist">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 poppins font_24">Featured Artist</h6>
+                <h5 class="card-title poppins font_48">Aurora</h5>
+
+                <p class="card-body lora font_18"> Hailing from Norway, AURORA has become one of the most famous singers
+                    of
+                    this generation, even lending her voice to Disney's <b>Frozen 2</b>! With her new album, The Gods We
+                    Can
+                    Touch, she teams up, among many others, famous French singer <b>Pomme</b>.
+
+                    <br><br>
+
+                    With her career showing no signs of slowing down, you can enjoy yet another magnificient album from
+                    a <b>magnificient</b> singer!
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Releases -->
+    <div id="recent_releases">
+        <p class="bebas font_24"> Recent Releases </p>
+
+        <div id="albumRow" class="container">
+            <div class="row">
+                <!-- Albums will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Popular Albums -->
+    <div id="popular_albums">
+        <p class="bebas font_24"> Popular Albums </p>
+
+        <div id="albumRowPopular" class="container">
+            <div class="row">
+                <!-- Albums will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p class="poppins font_18 left">Stream Ⓒ 2021</p>
+
+        <ul class="right">
+            <li><img class="images_margin" src="../assets/icons/social/youtube_icon.svg" alt=""></li>
+            <li><img class="images_margin" src="../assets/icons/social/facebook_icon.svg" alt=""></li>
+            <li><img class="images_margin" src="../assets/icons/social/twitter_icon.svg" alt=""></li>
+            <li><img class="images_margin" src="../assets/icons/social/instagram_icon.svg" alt=""></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
