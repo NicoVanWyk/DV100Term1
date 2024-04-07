@@ -1,14 +1,14 @@
 <!-- Project Info -->
 <br>
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Pantonym/Year1_Term1)
-![GitHub watchers](https://img.shields.io/github/watchers/Pantonym/Year1_Term1)
-![GitHub language count](https://img.shields.io/github/languages/count/Pantonym/Year1_Term1)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Pantonym/Year1_Term1)
+![GitHub repo size](https://img.shields.io/github/repo-size/NicoVanWyk/DV100Term1)
+![GitHub watchers](https://img.shields.io/github/watchers/NicoVanWyk/DV100Term1)
+![GitHub language count](https://img.shields.io/github/languages/count/NicoVanWyk/DV100Term1)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/NicoVanWyk/DV100Term1)
 
 <!-- Logo and link to repository -->
 <p align="center">
-  <a href="https://github.com/Pantonym/Year1_Term1">
+  <a href="https://github.com/NicoVanWyk/DV100Term1">
     <img src="NicoVanWyk_221179_DV100_T1_Final_Project/assets/icons/logo/stream_logo_black.png" width="200px">
   </a>
 </p>
@@ -18,8 +18,8 @@
 <p align="center"> This is a streaming website that was copied from wireframes supplied to the developer.
     <br>
     <!-- Bug and New Feature Links -->
-    <a href="https://github.com/Pantonym/Year1_Term1/issues">Report Bug</a>
-    <a href="https://github.com/Pantonym/Year1_Term1/issues">Request Feature</a>
+    <a href="https://github.com/NicoVanWyk/DV100Term1/issues">Report Bug</a>
+    <a href="https://github.com/NicoVanWyk/DV100Term1/issues">Request Feature</a>
     <br>
 </p>
 
@@ -127,13 +127,13 @@ There are no installations required other than the repository itself.
 Here is how you can clone this repo:
 
 1.  GitHub Desktop </br>
-    Enter `https://github.com/Pantonym/Year1_Term1.git` into the URL field and press the `Clone` button.
+    Enter `https://github.com/NicoVanWyk/DV100Term1.git` into the URL field and press the `Clone` button.
 
 2.  Clone Repository </br>
     Run the following in the command-line to clone the project:
 
     ```sh
-    git clone https://github.com/Pantonym/Year1_Term1.git
+    git clone https://github.com/NicoVanWyk/DV100Term1.git
     ```
 Once the project is downloaded, open the `index.html` file. Afterwards, either run using a live server (recommended) or run without debugging (oftentimes does not work due to firewall settings)
 
@@ -217,7 +217,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 **Nico van Wyk** - [221179@virtualwindow.co.za](mailto:221179@virtualwindow.co.za)
 
-* **Project Link** - https://github.com/Pantonym/Year1_Term1
+* **Project Link** - https://github.com/NicoVanWyk/DV100Term1
 
 <!-- ACKNOWLEDGEMENTS -->
 <!-- all resources that you used and Acknowledgements here -->
