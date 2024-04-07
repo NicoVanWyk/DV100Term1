@@ -9,7 +9,7 @@
 <!-- Logo and link to repository -->
 <p align="center">
   <a href="https://github.com/NicoVanWyk/DV100Term1">
-    <img src="NicoVanWyk_221179_DV100_T1_Final_Project/assets/icons/logo/stream_logo_black.png" width="200px">
+    <img src="assets/icons/logo/stream_logo_black.png" width="200px">
   </a>
 </p>
 
